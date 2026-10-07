@@ -1,0 +1,52 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Intermediate, rendered, and downloaded assets
+temp/
+ready/
+music/
+broll/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment configurations & OAuth2 credentials
+.env
+.env.*
+!.env.example
+token.json
+client_secrets.json
+client_secret.json
+client_secret*.json
+
+# State tracking & runtime logs
+processed_videos.txt
+uploads.log
+*.log
+
+# SQLite databases & checkpoints
+*.sqlite
+*.sqlite3
+*.db
+checkpoints.db
+
+# Media and subtitle working files
+*.mp4
+*.wav
+*.mp3
+*.aac
+*.ass
+*.srt
+*.tflite
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
